@@ -22,10 +22,3 @@ class MakerListView(ListAPIView):
 class ProductsListView(ListAPIView):
     serializer_class = ProductSerializer
     queryset = Product.objects.all()
-
-
-# [
-#     {
-
-#     }
-# ]
